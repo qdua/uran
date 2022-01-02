@@ -223,3 +223,70 @@ header a[href*="tel"] {
     width: 10vmin;
     filter: drop-shadow(0 2vmin 3vmin var(--clr4));
 }
+
+#team {
+    padding: 8vmin 0;
+}
+
+#team h3,
+#post h3 {
+    color: var(--clr1);
+}
+
+.team img {
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 0 0 3vmin;
+    filter: drop-shadow(0 2vmin 3vmin var(--clr4));
+    mix-blend-mode: luminosity;
+    min-height: 160px;
+    min-width: 160px;
+}
+
+.team div {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.team div h4,
+.team div h5 {
+    position: relative;
+    z-index: 2;
+}
+
+.team div h4 {
+    color: var(--clr1);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.team div h5 {
+    color: var(--clr7);
+    letter-spacing: 1px;
+}
+
+#post {
+    background: radial-gradient(circle at -25% -25%, var(--clr6), var(--clr3));
+    padding: 8vmin 0;
+}
+
+.post img {
+    border-radius: 1vmin;
+    filter: drop-shadow(0 1vmin 2vmin var(--clr4));
+    margin: 0 0 24px;
+}
+
+.post h4 {
+    color: var(--clr7);
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 0 0 16px;
+}
+
+.post p {
+    color: var(--clr1);
+    line-height: 1.3;
+}
