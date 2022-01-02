@@ -24,12 +24,35 @@ body {
 }
 
 header {
-    background: linear-gradient(var(--clr6), transparent);
     padding: 16px;
     position: fixed;
     top: 0;
+    transition: .3s linear;
     width: 100vw;
     z-index: 1000;
+}
+
+header>* {
+    z-index: 2;
+}
+
+header::after {
+    background: linear-gradient(var(--clr6), transparent);
+    bottom: 0;
+    content: '';
+    height: 150px;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: -50px;
+    transition: .3s linear;
+    width: 100vw;
+    z-index: 0;
+}
+
+header.headerBox::after {
+    opacity: 1;
+    top: 0;
 }
 
 .header {
