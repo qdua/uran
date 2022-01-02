@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 220 200" style="enable-background:new 0 0 220 200;width:100px;" xml:space="preserve">
+<style type="text/css">
+	.qd0{fill:url(#SVGID_1_);background: linear-gradient( #0000FF, #FE015B );}
+	.qd1{fill:url(#SVGID_2_);background: linear-gradient( #0000FF, #FE015B );}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="177.0322" y1="243.6156" x2="-39.6345" y2="46.2823">
+		
+		<stop offset="0%" stop-color="#0000FF">
+			<animate attributeName="stop-color" values="#0000FF;#FE015B;#0000FF;" dur="7s" repeatCount="indefinite"/>
+		</stop>
+		
+		<stop offset="100%" stop-color="#FE015B">
+			<animate attributeName="stop-color" values="#FE015B;#0000FF;#FE015B;" dur="7s" repeatCount="indefinite"/>
+		</stop>
+		
+	</linearGradient>
+	<path class="qd0" d="M100,100C100,44.8,55.2,0,0,0v20c21.4,0,41.4,8.3,56.6,23.4C71.7,58.6,80,78.6,80,100c0,18-5.9,35.1-16.8,49   l-19.8-19.8l-14.1,14.1l19.8,19.8C35.1,174.1,18,180,0,180v20c24,0,46.1-8.5,63.3-22.6L85.9,200l14.1-14.2l-22.6-22.6   C91.5,146,100,124,100,100z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="231.4405" y1="183.8767" x2="14.7738" y2="-13.4566">
+		<stop offset="0%" stop-color="#0000FF">
+			<animate attributeName="stop-color" values="#0000FF;#FE015B;#0000FF;" dur="7s" repeatCount="indefinite"/>
+		</stop>
+		
+		<stop offset="100%" stop-color="#FE015B">
+			<animate attributeName="stop-color" values="#FE015B;#0000FF;#FE015B;" dur="7s" repeatCount="indefinite"/>
+		</stop>
+	</linearGradient>
+	<path class="qd1" d="M120,0v20c21.4,0,41.4,8.3,56.6,23.4C191.8,58.5,200,78.6,200,100c0,21.4-8.3,41.4-23.4,56.6   C161.5,171.8,141.4,180,120,180v20c55.2,0,100-44.8,100-100S175.2,0,120,0z"/>
+</g>
+</svg>

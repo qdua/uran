@@ -8,5 +8,10 @@ window.addEventListener('scroll', function() {
         document.querySelector('header').classList.remove('headerBox')
     }
 
-    console.log(scrollpos)
 })
+
+
+let copy = document.querySelector('.copy time')
+let today = new Date()
+let year = today.getFullYear()
+copy.innerText = year
