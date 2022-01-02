@@ -114,7 +114,8 @@ header a[href*="tel"] {
     -webkit-text-fill-color: transparent;
     color: var(--clr1);
     display: flex;
-    font-size: 6vmin;
+    font-size: 7vmin;
+    font-weight: bold;
     flex-direction: column;
 }
 
