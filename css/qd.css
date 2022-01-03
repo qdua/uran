@@ -154,7 +154,7 @@ body {
 a,
 a:visited {
     background: transparent;
-    color: #3c8ad3;
+    color: #00ffc8;
     text-decoration: none;
     transition: color .1s linear;
     vertical-align: baseline;
@@ -162,7 +162,7 @@ a:visited {
 }
 
 a:hover {
-    color: #bb47ff;
+    color: #ff0080;
 }
 
 a:focus,
